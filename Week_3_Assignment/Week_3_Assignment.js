@@ -2,7 +2,7 @@ let ages = [3, 9, 23, 64, 2, 8, 28, 93];
 
 function ageSubtraction() {
     
-    return(ages[0] - (ages[ages.length - 1]));
+    return((ages[ages.length - 1]) - ages[0]);
 
 }
 
