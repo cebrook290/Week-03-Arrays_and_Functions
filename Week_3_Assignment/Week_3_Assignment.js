@@ -22,7 +22,11 @@ function averageAge() {
 
 console.log(averageAge());
 
+//2. Create an array called names that contains the following values: ‘Sam’, ‘Tommy’, ‘Tim’, ‘Sally’, ‘Buck’, ‘Bob’.
+
 let names = ['Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob'];
+
+//2a.	Use a loop to iterate through the array and calculate the average number of letters per name. 
 
 function nameAverage() {
     let sum = 0;
@@ -34,6 +38,8 @@ function nameAverage() {
 
 nameAverage();
 
+//2b.	Use a loop to iterate through the array again and concatenate all the names together, separated by spaces. 
+
 let output = '';
 for(i = 0; i < names.length; i++)
 {
@@ -41,6 +47,8 @@ for(i = 0; i < names.length; i++)
 };
 
 console.log(output);
+
+// 5. Create a new array called nameLengths. Write a loop to iterate over the previously created names array and add the length of each name to the nameLengths array.
 
 let nameLengths = [];
 
@@ -50,6 +58,8 @@ for(i = 0; i < names.length; i++)
 }
 
 console.log(nameLengths);
+
+// 6. Write a loop to iterate over the nameLengths array and calculate the sum of all the elements in the array. 
 
 function nameSum () {
     let sum = 0;
@@ -61,11 +71,15 @@ function nameSum () {
 
 nameSum();
 
+// 7. Write a function that takes two parameters, word and n, as arguments and returns the word concatenated to itself n number of times. 
+
 function wordJoin (word,n) {
     console.log(word.repeat(n));
 }
 
 wordJoin('hello',3);
+
+//8. Write a function that takes two parameters, firstName and lastName, and returns a full name.
 
 function nameJoin (firstName, lastName) {
     console.log(firstName + ' ' + lastName);
